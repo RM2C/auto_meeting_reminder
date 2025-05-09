@@ -6,7 +6,7 @@ const APPROVAL_CHANNEL_ID = 'YOUR_SLACK_DM_CHANNEL_ID'; // グループリーダ
 const LEADER_GRADE = 'M2';
 const LEADER_NAME = 'YOUR_NAME';
 const LEADER_NAME_EN = 'YOUR_ENGLISH_NAME';
-const RESEARCHER_NAME = 'YOUR_RESERCHER_NAME'; // 所属研究室名
+const LAB_NAME = 'YOUR_LAB_NAME'; // 所属研究室名
 const SENDER_ADDRESS = 'YOUR_MAIL_ADDRESS';
 
 // 受信者情報
@@ -145,7 +145,7 @@ ${MATERIALS_URL}
 立命館大学大学院
 情報理工学研究科 情報理工学専攻
 人間情報科学コース 2回生
-${RESEARCHER_NAME}
+${LAB_NAME}
 ${LEADER_NAME} <${LEADER_NAME_EN}>
 E-mail： ${SENDER_ADDRESS}
 ----------------------------------------`;
