@@ -151,7 +151,10 @@ E-mail： ${SENDER_ADDRESS}
 ----------------------------------------`;
 
       const subject = `${formattedDate}（${dayOfWeek}） ${EVENT_NAME}連絡`
-      const options = {from: SENDER_ADDRESS};
+      const options = {
+        from: SENDER_ADDRESS,
+        name: LEADER_NAME
+      };
 
       GmailApp.sendEmail(RECIEVER_ADDRESS, subject, mailBody, options);
       break;
