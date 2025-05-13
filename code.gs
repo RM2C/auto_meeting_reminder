@@ -90,7 +90,7 @@ function sendSlackConfirmation() {
     }
   }
 
-  setMinTrigger('sendSlackConfirmation', 17);
+  setMinTrigger('sendSlackConfirmation', 16);
 }
 
 
