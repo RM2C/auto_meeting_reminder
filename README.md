@@ -47,7 +47,7 @@ const APPROVAL_CHANNEL_ID = '（リーダーのSlack DMチャンネルID）';
 const LEADER_GRADE = '（学年）'; // 例：M2, B4 など
 const LEADER_NAME = '（名前）';
 const LEADER_NAME_EN = '（英語の名前）';
-const RESEARCHER_NAME = '（研究室名）';
+const RAB_NAME = '（研究室名）';
 const SENDER_ADDRESS = '（自分のメルアド）';
 
 // 受信者情報
